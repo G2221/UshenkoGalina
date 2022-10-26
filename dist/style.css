@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: RobotoRegular;
-  src: url("../../fonts/Roboto-Regular.ttf");
+  src: url("../fonts/Roboto-Regular.ttf");
 }
 .body {
   font-family: RobotoRegular, sans-serif;
@@ -24,7 +24,7 @@
 }
 .main {
   padding: 172px 0 170px 0;
-  background-image: url("../../images/main-bg.png");
+  background-image: url("../images/main-bg.png");
   background-size: cover;
   background-position: center;
   z-index: -10000;
@@ -128,5 +128,13 @@
 }
 /* 1024 - 1229 */
 /* 768 - 1023 */
+@media screen and (max-width: 1023px) {
+  .header .header-container {
+    max-width: 728px;
+  }
+  .main .main-container {
+    max-width: 728px;
+  }
+}
 /* 425 - 767 */
 /* 320 - 424 */
