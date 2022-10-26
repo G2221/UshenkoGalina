@@ -130,11 +130,100 @@
 /* 768 - 1023 */
 @media screen and (max-width: 1023px) {
   .header .header-container {
-    max-width: 728px;
+    max-width: 708px;
   }
   .main .main-container {
-    max-width: 728px;
+    max-width: 708px;
+  }
+  .contact .contact-container {
+    max-width: 708px;
+  }
+  .contact .contact-container .contact-image {
+    max-width: 400px;
+  }
+  .footer .footer-container {
+    max-width: 708px;
   }
 }
 /* 425 - 767 */
+@media screen and (max-width: 767px) {
+  .header .header-container {
+    max-width: 365px;
+  }
+  .main .main-container {
+    max-width: 365px;
+  }
+  .main .main-container .main-title {
+    font-size: 32px;
+  }
+  .main .main-container .main-title .main-title-hello {
+    margin-bottom: 10px;
+  }
+  .main .main-container .main-action .main-action-btn {
+    font-size: 13px;
+  }
+  .contact .contact-container {
+    max-width: 365px;
+    display: block;
+  }
+  .contact .contact-container .contact-info {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .contact .contact-container .contact-info .contact-socials {
+    justify-content: center;
+  }
+  .contact .contact-container .contact-image {
+    display: none;
+  }
+  .footer .footer-container {
+    max-width: 365px;
+  }
+}
 /* 320 - 424 */
+@media screen and (max-width: 426px) {
+  .header .header-container {
+    max-width: 280px;
+  }
+  .header .header-container .header-name {
+    font-size: 14px;
+  }
+  .main {
+    padding: 100px 0 100px 0;
+  }
+  .main .main-container {
+    max-width: 280px;
+  }
+  .main .main-container .main-title {
+    font-size: 25px;
+  }
+  .main .main-container .main-title .main-title-hello {
+    margin-bottom: 10px;
+  }
+  .main .main-container .main-action {
+    display: flex;
+    margin-top: 20px;
+  }
+  .main .main-container .main-action .main-action-btn {
+    padding: 15px 22px 15px 22px;
+    margin-right: 14px;
+  }
+  .contact {
+    padding: 50px 0 70px 0;
+  }
+  .contact .contact-container {
+    max-width: 280px;
+  }
+  .contact .contact-container .contact-info .contact-socials .contact-socials-telegram {
+    width: 40px;
+  }
+  .contact .contact-container .contact-info .contact-socials .contact-socials-whatsapp {
+    width: 40px;
+  }
+  .footer .footer-container {
+    max-width: 280px;
+  }
+  .footer .footer-container .footer-name {
+    font-size: 13px;
+  }
+}
