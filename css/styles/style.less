@@ -11,11 +11,10 @@
 .contact-form() {
   box-sizing: border-box;
   outline: none;
-  border: none;
-  background: #F7F7F7;
   padding: 18px 16px 18px 16px;
   width: 600px;
 
+  color: #696969;
   font-size: 20px;
   &::placeholder {
     font-size: 20px;
@@ -75,6 +74,7 @@
         color: #FFFFFF;
         margin-right: 14px;
         font-family: RobotoRegular, sans-serif;
+        cursor: pointer;
       }
     }
   }
@@ -110,15 +110,18 @@
     .contact-form {
       .contact-form-name {
         .contact-form();
-        color: #696969;
+        background: #F7F7F7;
+        border: 1px solid #F7F7F7;
       }
       .contact-form-mail {
         .contact-form();
         background: #FFFFFF;
+        border: 1px solid #FFFFFF;
       }
       .contact-form-message {
         .contact-form();
-        color: #696969;
+        background: #F7F7F7;
+        border: 1px solid #F7F7F7;
         height: 128px;
         vertical-align:text-top;
         resize: none;

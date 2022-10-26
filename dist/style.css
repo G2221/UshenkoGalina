@@ -53,6 +53,7 @@
   color: #FFFFFF;
   margin-right: 14px;
   font-family: RobotoRegular, sans-serif;
+  cursor: pointer;
 }
 .contact {
   background: #EDEDED;
@@ -86,12 +87,12 @@
 .contact .contact-container .contact-form .contact-form-name {
   box-sizing: border-box;
   outline: none;
-  border: none;
-  background: #F7F7F7;
   padding: 18px 16px 18px 16px;
   width: 600px;
-  font-size: 20px;
   color: #696969;
+  font-size: 20px;
+  background: #F7F7F7;
+  border: 1px solid #F7F7F7;
 }
 .contact .contact-container .contact-form .contact-form-name::placeholder {
   font-size: 20px;
@@ -100,12 +101,12 @@
 .contact .contact-container .contact-form .contact-form-mail {
   box-sizing: border-box;
   outline: none;
-  border: none;
-  background: #F7F7F7;
   padding: 18px 16px 18px 16px;
   width: 600px;
+  color: #696969;
   font-size: 20px;
   background: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 .contact .contact-container .contact-form .contact-form-mail::placeholder {
   font-size: 20px;
@@ -114,12 +115,12 @@
 .contact .contact-container .contact-form .contact-form-message {
   box-sizing: border-box;
   outline: none;
-  border: none;
-  background: #F7F7F7;
   padding: 18px 16px 18px 16px;
   width: 600px;
-  font-size: 20px;
   color: #696969;
+  font-size: 20px;
+  background: #F7F7F7;
+  border: 1px solid #F7F7F7;
   height: 128px;
   vertical-align: text-top;
   resize: none;
