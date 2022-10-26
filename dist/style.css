@@ -55,6 +55,48 @@
   font-family: RobotoRegular, sans-serif;
   cursor: pointer;
 }
+.advantages {
+  padding: 79px 0 80px 0;
+  background: #EDEDED;
+}
+.advantages .advantages-container {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.advantages .advantages-container .advantages-title {
+  max-width: 252px;
+  font-size: 31px;
+  color: #696969;
+  font-family: RobotoRegular, sans-serif;
+}
+.advantages .advantages-container .advantages-info {
+  max-width: 600px;
+}
+.advantages .advantages-container .advantages-info .advantages-info-block {
+  margin-bottom: 20px;
+}
+.advantages .advantages-container .advantages-info .advantages-info-block .advantages-info-header {
+  display: flex;
+  align-items: center;
+}
+.advantages .advantages-container .advantages-info .advantages-info-block .advantages-info-header .advantages-info-img {
+  max-width: 30px;
+}
+.advantages .advantages-container .advantages-info .advantages-info-block .advantages-info-header .advantages-info-title {
+  font-size: 14px;
+  line-height: 20px;
+  color: #696969;
+  font-family: RobotoRegular, sans-serif;
+  text-decoration: underline;
+}
+.advantages .advantages-container .advantages-info .advantages-info-block .advantages-info-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #696969;
+  font-family: RobotoRegular, sans-serif;
+}
 .contact {
   background: #EDEDED;
   padding: 79px 0 95px 0;
