@@ -6,6 +6,10 @@
 
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <link rel="stylesheet" href="dist/style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,8 +31,8 @@
             <div>Меня зовут Галина.</div>
             <div>Я создаю красивые адаптивные веб-сайты.</div>
         </div>
-        <div class="main-action">
-            <a href="" class="main-action-btn" id="portfolio-btn">Портфолио</a>
+        <div class="main-action animate__animated wow animate__slideInUp">
+            <a class="main-action-btn" id="portfolio-btn">Портфолио</a>
             <a class="main-action-btn" id="contact-btn">Контакты</a>
         </div>
     </div>
@@ -36,9 +40,9 @@
 
 <section class="advantages">
     <div class="advantages-container">
-        <div class="advantages-title">Работая со мной, Вы получите:</div>
+        <div class="advantages-title animate__animated wow animate__slideInUp">Работая со мной, Вы получите:</div>
         <div class="advantages-info">
-            <div class="advantages-info-block">
+            <div class="advantages-info-block animate__animated wow animate__slideInUp">
                 <div class="advantages-info-header">
                     <img src="images/check_icon_142693.png" alt="check icon" class="advantages-info-img">
                     <div class="advantages-info-title">Надежную верстку</div>
@@ -49,7 +53,7 @@
                     верстку так, что при внесении изменений Ваш сайт сохранит презентабельный внешний вид.
                 </div>
             </div>
-            <div class="advantages-info-block">
+            <div class="advantages-info-block animate__animated wow animate__slideInUp">
                 <div class="advantages-info-header">
                     <img src="images/check_icon_142693.png" alt="check icon" class="advantages-info-img">
                     <div class="advantages-info-title">Удобство пользования / Usability</div>
@@ -60,7 +64,7 @@
                     попадут по кнопке на нужную страницу и т.д.
                 </div>
             </div>
-            <div class="advantages-info-block">
+            <div class="advantages-info-block animate__animated wow animate__slideInUp">
                 <div class="advantages-info-header">
                     <img src="images/check_icon_142693.png" alt="check icon" class="advantages-info-img">
                     <div class="advantages-info-title">Гарантию и техническую поддержку</div>
@@ -70,6 +74,17 @@
                     обнаружатся недочеты с моей стороны - я бесплатно и оперативно все исправлю. Мне важно, чтобы Ваш
                     сайт приносил прибыль и работал так, как Вы задумали.
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+    <div class="portfolio-container">
+        <div class="portfolio-info">
+            <div class="portfolio-title">Портфолио</div>
+            <div class="portfolio-text">
+                Подробнее с моим опытом работы вы можете познакомиться в моем <a href="files/CV - Ushenko Galina.pdf" target="_ blank" class="portfolio-text-highlight">резюме</a>.
             </div>
         </div>
     </div>
@@ -85,9 +100,9 @@
             <div class="contact-text contact-number">
                 +7 (981) 761-59-73
             </div>
-            <div class="contact-text contact-email">
+            <a class="contact-text contact-email" href="mailto:ushenko.galina@yandex.ru">
                 ushenko.galina@yandex.ru
-            </div>
+            </a>
             <div class="contact-socials">
                 <a href="https://t.me/GalinaUshenko" class="contact-socials-telegram" target="_ blank">
                     <img src="images/telegram-icons.png" alt="telegram-icon" class="contact-socials-img">
@@ -97,8 +112,8 @@
                 </a>
             </div>
         </div>
-        <div class="contact-image">
-            <img src="images/contact-img.jpg" class="contact-image-img">
+        <div class="contact-image ">
+            <img src="images/contact-img.jpg" class="contact-image-img animate__animated wow animate__slideInUp">
         </div>
     </div>
 </section>
@@ -106,20 +121,13 @@
 <footer class="footer">
     <div class="footer-container">
         <a class="footer-name" id="footer-name">Галина Ушенко, 2022</a>
-        <!--        <div class="footer-socials">-->
-        <!--            <a href="https://t.me/GalinaUshenko" class="footer-socials-telegram" target="_ blank">-->
-        <!--                <img src="images/telegram-icons.png" alt="telegram-icon" class="footer-socials-img">-->
-        <!--            </a>-->
-        <!--            <a href="https://wa.me/79817615973" class="footer-socials-telegram" target="_ blank">-->
-        <!--                <img src="images/whatsapp-icons.png" alt="whatsapp-icon" class="footer-socials-img">-->
-        <!--            </a>-->
-        <!--        </div>-->
     </div>
 </footer>
 
 <script src="scripts/jquery-3.6.1.min.js"></script>
 <script src="scripts/jquery-ui.min.js"></script>
 <script src="scripts/slick.min.js"></script>
+<script src="scripts/wow.min.js"></script>
 
 <script src="scripts/script.js"></script>
 </body>
