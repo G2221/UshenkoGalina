@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: RobotoRegular;
-  src: url("../fonts/Roboto-Regular.ttf");
+  src: url("../../fonts/Roboto-Regular.ttf");
 }
 .body {
   font-family: RobotoRegular, sans-serif;
@@ -24,7 +24,7 @@
 }
 .main {
   padding: 172px 0 170px 0;
-  background-image: url("../images/main-bg.png");
+  background-image: url("../../images/main-bg.png");
   background-size: cover;
   background-position: center;
   z-index: -10000;
@@ -84,60 +84,20 @@
 .contact .contact-container .contact-info .contact-text.contact-number {
   margin-bottom: 1px;
 }
-.contact .contact-container .contact-form .contact-form-name {
-  box-sizing: border-box;
-  outline: none;
-  padding: 18px 16px 18px 16px;
+.contact .contact-container .contact-info .contact-socials {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.contact .contact-container .contact-info .contact-socials .contact-socials-telegram .contact-socials-img {
+  width: 30px;
+  margin-right: 24px;
+}
+.contact .contact-container .contact-info .contact-socials .contact-socials-whatsapp .contact-socials-img {
+  width: 30px;
+}
+.contact .contact-container .contact-image .contact-image-img {
   width: 600px;
-  color: #696969;
-  font-size: 20px;
-  background: #F7F7F7;
-  border: 1px solid #F7F7F7;
-}
-.contact .contact-container .contact-form .contact-form-name::placeholder {
-  font-size: 20px;
-  color: #D1D1D1;
-}
-.contact .contact-container .contact-form .contact-form-mail {
-  box-sizing: border-box;
-  outline: none;
-  padding: 18px 16px 18px 16px;
-  width: 600px;
-  color: #696969;
-  font-size: 20px;
-  background: #FFFFFF;
-  border: 1px solid #FFFFFF;
-}
-.contact .contact-container .contact-form .contact-form-mail::placeholder {
-  font-size: 20px;
-  color: #D1D1D1;
-}
-.contact .contact-container .contact-form .contact-form-message {
-  box-sizing: border-box;
-  outline: none;
-  padding: 18px 16px 18px 16px;
-  width: 600px;
-  color: #696969;
-  font-size: 20px;
-  background: #F7F7F7;
-  border: 1px solid #F7F7F7;
-  height: 128px;
-  vertical-align: text-top;
-  resize: none;
-}
-.contact .contact-container .contact-form .contact-form-message::placeholder {
-  font-size: 20px;
-  color: #D1D1D1;
-}
-.contact .contact-container .contact-form .contact-form-btn {
-  font-size: 20px;
-  color: #FFFFFF;
-  font-family: RobotoRegular, sans-serif;
-  padding: 18px 20px 18px 20px;
-  background: #D1D1D1;
-  border: none;
-  outline: none;
-  cursor: pointer;
 }
 .footer {
   background: #FFFFFF;
