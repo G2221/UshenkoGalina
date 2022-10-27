@@ -130,6 +130,68 @@
 .portfolio .portfolio-container .portfolio-info .portfolio-text .portfolio-text-highlight:hover {
   color: #413d3d;
 }
+.portfolio .portfolio-container .portfolio-gallery {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing {
+  width: 229px;
+  height: 280px;
+  background-color: #EDEDED;
+}
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-text {
+  width: 229px;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: #EDEDED;
+}
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-text .portfolio-landing-title {
+  font-size: 13px;
+  color: #696969;
+  font-family: RobotoRegular, sans-serif;
+  margin-bottom: 5px;
+}
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-text .portfolio-landing-link {
+  font-size: 13px;
+  color: #696969;
+  font-family: RobotoRegular, sans-serif;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-text .portfolio-landing-link:hover {
+  color: #413d3d;
+}
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-img-1 {
+  margin: 10px;
+  width: 209px;
+  height: 250px;
+  background-image: url("../images/Landing-1.png");
+  background-size: cover;
+  background-position: top;
+  z-index: -10000;
+}
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-img-2 {
+  margin: 10px;
+  width: 209px;
+  height: 250px;
+  background-image: url("../images/Landing-2.jpg");
+  background-size: cover;
+  background-position: top;
+  z-index: -10000;
+}
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-img-3 {
+  margin: 10px;
+  width: 209px;
+  height: 250px;
+  background-image: url("../images/Landing-3.jpg");
+  background-size: cover;
+  background-position: top;
+  z-index: -10000;
+}
 .contact {
   background: #EDEDED;
   padding: 79px 0 95px 0;
