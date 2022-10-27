@@ -155,11 +155,12 @@
         }
       }
     }
+
     .portfolio-gallery {
       display: grid;
       justify-items: center;
       grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 330px 330px;
       gap: 10px;
       .portfolio-landing {
         width: 229px;
@@ -211,6 +212,15 @@
           width: 209px;
           height: 250px;
           background-image: url("../images/Landing-3.jpg");
+          background-size: cover;
+          background-position: top;
+          z-index: -10000;
+        }
+        .portfolio-landing-img-4 {
+          margin: 10px;
+          width: 209px;
+          height: 250px;
+          background-image: url("../images/Landing-4.jpg");
           background-size: cover;
           background-position: top;
           z-index: -10000;
