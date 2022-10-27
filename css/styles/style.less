@@ -162,70 +162,81 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 330px 330px;
       gap: 10px;
+
       .portfolio-landing {
         width: 229px;
         height: 280px;
         background-color: #EDEDED;
-        .portfolio-landing-text {
-          width: 229px;
-          box-sizing: border-box;
-          padding: 5px;
-          background-color: #EDEDED;
-          .portfolio-landing-title {
-            font-size: 13px;
-            color: #696969;
-            font-family: RobotoRegular, sans-serif;
-            margin-bottom: 5px;
-          }
-          .portfolio-landing-link {
-            font-size: 13px;
-            color: #696969;
-            font-family: RobotoRegular, sans-serif;
-            margin-bottom: 5px;
-            text-decoration: underline;
-            cursor: pointer;
-            &:hover {
-              color: #413d3d;
+
+        .portfolio-landing-link {
+          text-decoration: none;
+
+          .portfolio-landing-text {
+            width: 229px;
+            box-sizing: border-box;
+            padding: 5px;
+            background-color: #EDEDED;
+
+            .portfolio-landing-title {
+              font-size: 13px;
+              color: #696969;
+              font-family: RobotoRegular, sans-serif;
+              margin-bottom: 5px;
+            }
+
+            .portfolio-landing-more {
+              font-size: 13px;
+              color: #696969;
+              font-family: RobotoRegular, sans-serif;
+              margin-bottom: 5px;
+              text-decoration: underline;
+
+              &:hover {
+                color: #413d3d;
+              }
             }
           }
-        }
-        .portfolio-landing-img-1 {
-          margin: 10px;
-          width: 209px;
-          height: 250px;
-          background-image: url("../images/Landing-1.png");
-          background-size: cover;
-          background-position: top;
-          z-index: -10000;
-        }
-        .portfolio-landing-img-2 {
-          margin: 10px;
-          width: 209px;
-          height: 250px;
-          background-image: url("../images/Landing-2.jpg");
-          background-size: cover;
-          background-position: top;
-          z-index: -10000;
-        }
-        .portfolio-landing-img-3 {
-          margin: 10px;
-          width: 209px;
-          height: 250px;
-          background-image: url("../images/Landing-3.jpg");
-          background-size: cover;
-          background-position: top;
-          z-index: -10000;
-        }
-        .portfolio-landing-img-4 {
-          margin: 10px;
-          width: 209px;
-          height: 250px;
-          background-image: url("../images/Landing-4.jpg");
-          background-size: cover;
-          background-position: top;
-          z-index: -10000;
-        }
 
+          .portfolio-landing-img-1 {
+            margin: 10px;
+            width: 209px;
+            height: 250px;
+            background-image: url("../images/Landing-1.png");
+            background-size: cover;
+            background-position: top;
+            z-index: -10000;
+          }
+
+          .portfolio-landing-img-2 {
+            margin: 10px;
+            width: 209px;
+            height: 250px;
+            background-image: url("../images/Landing-2.jpg");
+            background-size: cover;
+            background-position: top;
+            z-index: -10000;
+          }
+
+          .portfolio-landing-img-3 {
+            margin: 10px;
+            width: 209px;
+            height: 250px;
+            background-image: url("../images/Landing-3.jpg");
+            background-size: cover;
+            background-position: top;
+            z-index: -10000;
+          }
+
+          .portfolio-landing-img-4 {
+            margin: 10px;
+            width: 209px;
+            height: 250px;
+            background-image: url("../images/Landing-4.jpg");
+            background-size: cover;
+            background-position: top;
+            z-index: -10000;
+          }
+        }
       }
     }
   }

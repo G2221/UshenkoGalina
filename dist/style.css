@@ -142,30 +142,32 @@
   height: 280px;
   background-color: #EDEDED;
 }
-.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-text {
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-link {
+  text-decoration: none;
+}
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-link .portfolio-landing-text {
   width: 229px;
   box-sizing: border-box;
   padding: 5px;
   background-color: #EDEDED;
 }
-.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-text .portfolio-landing-title {
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-link .portfolio-landing-text .portfolio-landing-title {
   font-size: 13px;
   color: #696969;
   font-family: RobotoRegular, sans-serif;
   margin-bottom: 5px;
 }
-.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-text .portfolio-landing-link {
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-link .portfolio-landing-text .portfolio-landing-more {
   font-size: 13px;
   color: #696969;
   font-family: RobotoRegular, sans-serif;
   margin-bottom: 5px;
   text-decoration: underline;
-  cursor: pointer;
 }
-.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-text .portfolio-landing-link:hover {
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-link .portfolio-landing-text .portfolio-landing-more:hover {
   color: #413d3d;
 }
-.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-img-1 {
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-link .portfolio-landing-img-1 {
   margin: 10px;
   width: 209px;
   height: 250px;
@@ -174,7 +176,7 @@
   background-position: top;
   z-index: -10000;
 }
-.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-img-2 {
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-link .portfolio-landing-img-2 {
   margin: 10px;
   width: 209px;
   height: 250px;
@@ -183,7 +185,7 @@
   background-position: top;
   z-index: -10000;
 }
-.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-img-3 {
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-link .portfolio-landing-img-3 {
   margin: 10px;
   width: 209px;
   height: 250px;
@@ -192,7 +194,7 @@
   background-position: top;
   z-index: -10000;
 }
-.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-img-4 {
+.portfolio .portfolio-container .portfolio-gallery .portfolio-landing .portfolio-landing-link .portfolio-landing-img-4 {
   margin: 10px;
   width: 209px;
   height: 250px;
