@@ -1,8 +1,5 @@
 $(document).ready(function () {
-
-    new WOW ({
-        animateClass: 'animate__animated',
-    }).init();
+    AOS.init();
 
     document.getElementById('footer-name').onclick = function () {
         document.getElementsByClassName('header')[0].scrollIntoView({behavior: "smooth"});

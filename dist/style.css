@@ -225,6 +225,26 @@
   .main .main-container {
     max-width: 708px;
   }
+  .advantages .advantages-container {
+    max-width: 708px;
+    display: block;
+  }
+  .advantages .advantages-container .advantages-title {
+    margin-bottom: 30px;
+    max-width: 708px;
+  }
+  .advantages .advantages-container .advantages-info {
+    width: 100%;
+  }
+  .portfolio .portfolio-container {
+    max-width: 708px;
+  }
+  .portfolio .portfolio-container .portfolio-info {
+    display: block;
+  }
+  .portfolio .portfolio-container .portfolio-info .portfolio-title {
+    margin-bottom: 15px;
+  }
   .contact .contact-container {
     max-width: 708px;
   }
@@ -251,6 +271,13 @@
   }
   .main .main-container .main-action .main-action-btn {
     font-size: 13px;
+  }
+  .advantages .advantages-container {
+    max-width: 365px;
+    display: block;
+  }
+  .portfolio .portfolio-container {
+    max-width: 365px;
   }
   .contact .contact-container {
     max-width: 365px;
@@ -298,11 +325,42 @@
     padding: 15px 22px 15px 22px;
     margin-right: 14px;
   }
+  .advantages {
+    padding: 50px 0 70px 0;
+  }
+  .advantages .advantages-container {
+    max-width: 280px;
+    display: block;
+  }
+  .advantages .advantages-container .advantages-title {
+    margin-bottom: 20px;
+    max-width: 280px;
+    font-size: 19px;
+  }
+  .advantages .advantages-container .advantages-info .advantages-info-block .advantages-info-text {
+    font-size: 13px;
+  }
+  .portfolio .portfolio-container {
+    max-width: 280px;
+  }
+  .portfolio .portfolio-container .portfolio-info {
+    text-align: center;
+  }
+  .portfolio .portfolio-container .portfolio-info .portfolio-title {
+    margin-bottom: 15px;
+    font-size: 19px;
+  }
+  .portfolio .portfolio-container .portfolio-info .portfolio-text {
+    line-height: 20px;
+  }
   .contact {
     padding: 50px 0 70px 0;
   }
   .contact .contact-container {
     max-width: 280px;
+  }
+  .contact .contact-container .contact-info .contact-title {
+    font-size: 19px;
   }
   .contact .contact-container .contact-info .contact-socials .contact-socials-telegram {
     width: 40px;
