@@ -1,0 +1,216 @@
+/* 1024 - 1229 */
+@media screen and (max-width: 1229px) {
+
+}
+
+/* 768 - 1023 */
+@media screen and (max-width: 1023px) {
+
+    .header-container {
+        max-width: 708px;
+    }
+
+    .main-container {
+        max-width: 708px;
+    }
+
+    .advantages-container {
+        max-width: 708px;
+        display: block;
+    }
+
+    .advantages-title {
+        margin-bottom: 30px;
+        max-width: 708px;
+    }
+
+    .advantages-info {
+        width: 100%;
+    }
+
+    .portfolio-container {
+        max-width: 708px;
+    }
+
+    .portfolio-info {
+        display: block;
+    }
+
+    .portfolio-title {
+        margin-bottom: 15px;
+    }
+
+    .contact-container {
+        max-width: 708px;
+    }
+
+    .contact-image {
+        max-width: 400px;
+    }
+
+    .footer-container {
+        max-width: 708px;
+    }
+}
+
+/* 425 - 767 */
+@media screen and (max-width: 767px) {
+    .header-container {
+        max-width: 365px;
+    }
+
+    .main-container {
+        max-width: 365px;
+    }
+
+    .main-title {
+        font-size: 32px;
+    }
+
+    .main-title-hello {
+        margin-bottom: 10px;
+    }
+
+    .main-action-btn {
+        font-size: 13px;
+    }
+
+    .advantages-container {
+        max-width: 365px;
+        display: block;
+    }
+
+    .portfolio-container {
+        max-width: 365px;
+    }
+
+    .portfolio-gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: 330px 330px 330px;
+    }
+
+    .contact-container {
+        max-width: 365px;
+        display: block;
+    }
+
+    .contact-info {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contact-socials {
+        justify-content: center;
+    }
+
+    .contact-image {
+        display: none;
+    }
+
+    .footer-container {
+        max-width: 365px;
+    }
+}
+
+/* 320 - 424 */
+@media screen and (max-width: 426px) {
+
+    .header-container {
+        max-width: 280px;
+    }
+
+    .header-name {
+        font-size: 14px;
+    }
+
+    .main {
+        padding: 100px 0 100px 0;
+    }
+
+    .main-container {
+        max-width: 280px;
+    }
+
+    .main-title {
+        font-size: 25px;
+    }
+
+    .main-title-hello {
+        margin-bottom: 10px;
+    }
+
+    .main-action {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .main-action-btn {
+        padding: 15px 22px 15px 22px;
+        margin-right: 14px;
+    }
+
+    .advantages {
+        padding: 50px 0 70px 0;
+    }
+
+    .advantages-container {
+        max-width: 280px;
+        display: block;
+    }
+
+    .advantages-title {
+        margin-bottom: 20px;
+        max-width: 280px;
+        font-size: 19px;
+    }
+
+    .advantages-info-text {
+        font-size: 13px;
+    }
+
+    .portfolio-container {
+        max-width: 280px;
+    }
+
+    .portfolio-info {
+        text-align: center;
+    }
+
+    .portfolio-title {
+        margin-bottom: 15px;
+        font-size: 19px;
+    }
+
+    .portfolio-text {
+        line-height: 20px;
+    }
+
+    .contact {
+        padding: 50px 0 70px 0;
+    }
+
+    .contact-container {
+        max-width: 280px;
+    }
+
+    .contact-title {
+        font-size: 19px;
+    }
+
+    .contact-socials-telegram {
+        width: 40px;
+    }
+
+    .contact-socials-whatsapp {
+        width: 40px;
+    }
+
+    .footer-container {
+        max-width: 280px;
+    }
+
+    .footer-name {
+        font-size: 13px;
+    }
+
+}
